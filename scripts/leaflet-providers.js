@@ -225,11 +225,12 @@
 			}
 		},
 		Stamen: {
-			url: '//stamen-tiles-{s}.a.ssl.fastly.net/{variant}/{z}/{x}/{y}.{ext}',
+			url: '//tiles.stadiamaps.com/tiles/stamen_{variant}/{z}/{x}/{y}{r}.{ext}',
 			options: {
 				attribution:
-					'Map tiles by <a href="http://stamen.com">Stamen Design</a>, ' +
-					'<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; ' +
+					'Map tiles by &copy; <a href="https://www.stadiamaps.com/">Stadia Maps</a>, ' +
+					'&copy; <a href="https://openmaptiles.org/">OpenMapTiles</a>, ' +
+					'&copy; <a href="https://stamen.com/">Stamen Design</a> &mdash; ' +
 					'Map data {attribution.OpenStreetMap}',
 				subdomains: 'abcd',
 				minZoom: 0,
