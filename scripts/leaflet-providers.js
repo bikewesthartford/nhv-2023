@@ -244,7 +244,7 @@
 				TonerHybrid: 'toner-hybrid',
 				TonerLines: 'toner-lines',
 				TonerLabels: 'toner-labels',
-				TonerLite: 'toner-lite',
+				TonerLite: 'toner_lite',
 				Watercolor: {
 					options: {
 						variant: 'watercolor',
