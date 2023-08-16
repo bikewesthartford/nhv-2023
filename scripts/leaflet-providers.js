@@ -224,6 +224,7 @@
 				subdomains: 'abcd'
 			}
 		},
+		// Jack updated URL, attribution, and ONE underscore in variants
 		Stamen: {
 			url: '//tiles.stadiamaps.com/tiles/stamen_{variant}/{z}/{x}/{y}{r}.{ext}',
 			options: {
